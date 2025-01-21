@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand";
+}
+
+
+/* shared style */
+.text-orange {
+
+    color: rgba(254, 163, 1, 1);
+}
+
+.text-sky-blue {
+    color: rgba(1, 172, 253, 1);
+}
+
+.text-purpole {
+    color: rgba(83, 2, 84, 1);
+}
+
+.text-black {
+    color: rgba(0, 0, 0, 1);
+}
+
+#text-gray {
+    color: rgba(128, 128, 128, 1);
+    font-family: "Raleway",
+}
+
+.text-light-gray {
+    color: rgba(0, 0, 0, 1);
+}
+
+.text-blue {
+    color: rgba(93, 88, 239, 1);
+}
+
+.premary-btn {
+    width: 180px;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgba(254, 163, 1, 1);
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 500;
+
+}
+
+.display-flex {
+    display: flex;
+
+}
+
+section {
+    margin: 0 140px;
+}
+
+.student-img img {
+    width: 100%;
+}
+
+/* ............ header ..........................*/
+
+/* nav   style*/
+.logo h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+nav ul li {
+    list-style: none;
+
+
+}
+
+.logo {
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.navbar,
+.navlink {
+
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.list-item {
+    gap: 32px;
+    align-items: center;
+}
+
+.ri-menu-line {
+    display: none;
+}
+
+/* header banner style */
+.banner-continer {
+    margin-top: 30px;
+    max-width: 1270px;
+
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.student-title-continer {
+    max-width: 630px;
+}
+
+.student-heading {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#enroll-btn {
+    background-color: black;
+}
+
+.student-describe {
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+
+/* ...................main................ */
+/* Standard Curriculum  */
+.stander-curriculum-section {
+    margin: 60px 0;
+    text-align: center;
+    background-image: url("./assets/bg.png");
+    background-position: center;
+}
+
+.stander-curriculum-heading {
+
+    margin: 30px 0;
+}
+
+.some-curriculum {
+    gap: 28px;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+.curriculum {
+    box-sizing: 0px 0px 15px 28.3px rgba(0, 0, 0, 0.05);
+    height: 460px;
+    width: 360px;
+    border-radius: 18px;
+    text-align: center;
+}
+
+.curriculum img,
+.arrow {
+    margin: 50px 0;
+}
+
+.curriculum p {
+    margin: 40px 0;
+    font-size: 0.93rem;
+}
+
+.curriculum h5 {
+    font-size: 0.93rem;
+    cursor: pointer;
+}
+
+.curriculum-1 {
+    background: linear-gradient(to bottom, #2980b9, #6dd5fa, #ffffff);
+}
+
+.curriculum-2 {
+    background: linear-gradient(to bottom, #654ea3, #eaafc8);
+}
+
+.curriculum-3 {
+    background: linear-gradient(to bottom, #005aa7, #fffde4);
+}
+
+.arrow i {
+    background-color: rgba(254, 163, 1, 1);
+
+    padding: 20px;
+    font-size: 1.6rem;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* ..............school stories........... */
+.school-stories {
+    text-align: center;
+    background: url("./assets/bg.png"), linear-gradient(to bottom, #ebfcfc, #f7f8c3);
+}
+
+.school-stories-heading {
+    margin: 30px auto;
+}
+
+.some-stories {
+    gap: 28px;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+.class-room-storie {
+    background-color: rgba(255, 255, 255, 1);
+    width: 460px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.class-room-storie img {
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    width: 100%;
+}
+
+.class-room-heading {
+    margin-top: 50px;
+}
+
+.class-room-storie p {
+    margin: 40px 0;
+}
+
+.stories {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 19px;
+
+}
+
+.storie {
+    width: 290px;
+    height: 300px;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.storie img {
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    width: 100%;
+}
+
+.storie h3 {
+    font-size: 0.95rem;
+}
+
+.store-feature-btn {
+    position: relative;
+    height: 50px;
+    width: 250px;
+    background-color: rgb(137, 242, 137);
+    color: white;
+    border-radius: 47px;
+    border: none;
+    font-weight: 600;
+    top: -30px;
+    left: -50px;
+    cursor: pointer;
+}
+
+.storie-btn {
+    position: relative;
+    height: 45px;
+    width: 150px;
+    background-color: rgb(76, 241, 195);
+    color: white;
+    border-radius: 47px;
+    border: none;
+    font-weight: 600;
+    top: -30px;
+    left: -20px;
+    cursor: pointer;
+
+
+}
+
+#storie-2 {
+    background-color: #2980b9;
+}
+
+#storie-3 {
+    background-color: #6dd5fa;
+}
+
+#storie-4 {
+    background-color: #1ef66a;
+}
+
+
+/* footer style */
+
+
+footer {
+    background-color: rgba(1, 172, 253, 1);
+}
+
+.footer-info {
+    max-width: 1170px;
+    justify-content: space-around;
+    color: white;
+    padding: 100px 0;
+}
+
+.footer-heading {
+    justify-content: start;
+    align-items: center;
+}
+
+.footer-heading h1 {
+    font-size: 2.5rem;
+}
+
+.footer-heading p {
+    font-size: 0.8rem;
+
+}
+
+.footer-nav-section li {
+    list-style: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.touch-socal-meadia h1 {
+
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 576px) {
+
+
+    .contact-btn,
+    .navlink,
+    .class-room-storie {
+        display: none;
+    }
+
+    .navbar {
+        margin: 10px 16px;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(254, 163, 1, 1);
+    }
+
+    .ri-menu-line {
+        display: block;
+        font-size: 1.5rem;
+    }
+
+    section {
+        margin: 0 16px;
+    }
+
+    .banner-continer {
+        flex-direction: column-reverse;
+
+        text-align: center;
+    }
+
+    .some-curriculum,
+    .some-stories,
+    .footer-info {
+        flex-direction: column;
+    }
+
+    .footer-info {
+        align-items: start;
+        gap: 30px;
+    }
+
+    .curriculum {
+        width: 100%;
+    }
+
+    .storie {
+        height: 100%;
+        width: 100%;
+    }
+
+}
