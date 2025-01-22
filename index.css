@@ -369,12 +369,12 @@ footer {
     .navbar {
         margin: 10px 16px;
         justify-content: space-between;
-        border-bottom: 1px solid rgba(254, 163, 1, 1);
+        border: 1px solid rgba(254, 163, 1, 1);
     }
 
     .ri-menu-line {
         display: block;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     section {
