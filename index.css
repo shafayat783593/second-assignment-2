@@ -204,11 +204,16 @@ nav ul li a {
 
 /* marquee style */
 .marquee {
+display: flex;
+
     text-align: center;
     direction: left;
-    color: #1badfc;
+    color: #6fcbf9;
     font-size: 3rem;
     font-weight: 800;
+    width: 80%;
+    margin: auto;
+    text-align: center;
 }
 
 /* ..............school stories........... */
@@ -369,7 +374,9 @@ footer {
     .navbar {
         margin: 10px 16px;
         justify-content: space-between;
-        border: 1px solid rgba(254, 163, 1, 1);
+        
+        border-bottom: 1px solid rgba(254, 163, 1, 1);
+                padding-bottom: 17px;
     }
 
     .ri-menu-line {
@@ -386,6 +393,12 @@ footer {
 
         text-align: center;
     }
+    .marquee{
+        color: rgb(36, 35, 35);
+
+border-radius: 10px;
+        background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+    }
 
     .some-curriculum,
     .some-stories,
@@ -395,7 +408,7 @@ footer {
 
     .footer-info {
         align-items: start;
-        gap: 30px;
+        gap: 70px;
     }
 
     .curriculum {
